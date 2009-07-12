@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>iPhoto2PBase</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.newwavedigitalmedia.iPhoto2PBase</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>NwDm</string>
+	<key>CFBundleVersion</key>
+	<string>2.02</string>
+	<key>NSMainNibFile</key>
+	<string>IPhoto2PBase</string>
+	<key>NSPrincipalClass</key>
+	<string>PBaseExporter</string>
+</dict>
+</plist>

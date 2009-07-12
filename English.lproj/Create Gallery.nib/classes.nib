@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {doCancel = id; doCancelledCreate = id; doCreateGallery = id; }; 
+            CLASS = CreateGalleryPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                alignmentController = NSArrayController; 
+                countryMenu = NSPopUpButton; 
+                countryMenuArray = NSArrayController; 
+                createGalleryView = NSView; 
+                creatingGallery = NSObjectController; 
+                galleryController = NSArrayController; 
+                galleryName = NSTextField; 
+                galleryStyleContoller = NSArrayController; 
+                isChildGallery = NSButton; 
+                progress = NSProgressIndicator; 
+                progressView = NSView; 
+                statusText = NSTextField; 
+                styleMenu = NSPopUpButton; 
+                whoCanPostController = NSArrayController; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

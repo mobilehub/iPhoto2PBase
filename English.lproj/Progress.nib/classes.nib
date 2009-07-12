@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {onCancel = id; }; 
+            CLASS = UploadProgressController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {progressBar = NSProgressIndicator; progressText = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

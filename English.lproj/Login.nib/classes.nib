@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBClasses</key>
+	<array>
+		<dict>
+			<key>CLASS</key>
+			<string>FirstResponder</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>doCancel</key>
+				<string>id</string>
+				<key>doCancleDuringLogin</key>
+				<string>id</string>
+				<key>doLogin</key>
+				<string>id</string>
+				<key>saveInKeychainClicked</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>PBLoginPanelController</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>cancel</key>
+				<string>NSButton</string>
+				<key>login</key>
+				<string>NSButton</string>
+				<key>loginView</key>
+				<string>NSView</string>
+				<key>password</key>
+				<string>NSSecureTextField</string>
+				<key>progress</key>
+				<string>NSProgressIndicator</string>
+				<key>progressStatus</key>
+				<string>NSTextField</string>
+				<key>progressView</key>
+				<string>NSView</string>
+				<key>saveInKeychain</key>
+				<string>NSButton</string>
+				<key>userName</key>
+				<string>NSTextField</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSWindowController</string>
+		</dict>
+	</array>
+	<key>IBVersion</key>
+	<string>1</string>
+</dict>
+</plist>
